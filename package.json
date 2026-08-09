@@ -1,0 +1,51 @@
+{
+  "name": "shop-website",
+  "version": "1.0.0",
+  "description": "Modern e-commerce shop website with digital delivery, music player, and admin dashboard",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.0",
+    "@hookform/resolvers": "^3.3.4",
+    "react-hook-form": "^7.48.0",
+    "zod": "^3.22.4",
+    "@radix-ui/react-slot": "^2.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.2.1",
+    "lucide-react": "^0.294.0",
+    "next-auth": "^4.24.0",
+    "@prisma/client": "^5.7.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.1.2",
+    "axios": "^1.6.2",
+    "zustand": "^4.4.1",
+    "react-toastify": "^9.1.3",
+    "next-cloudinary": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.5",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.0",
+    "prisma": "^5.7.0"
+  }
+}
